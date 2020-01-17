@@ -10,9 +10,6 @@ include_recipe 'nodejs'
 include_recipe 'apt'
 
 
-#npm installs
-nodejs_npm 'pm2'
-
 #packages apt-get
 apt_update
 package 'nginx'
